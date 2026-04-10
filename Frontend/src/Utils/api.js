@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const api = axios.create({
-   baseURL: 'http://localhost:4000/api', // 👈 important
+   baseURL: 'https://prescripto-p0e4.onrender.com', // 👈 important
 })
 
 // 🔐 Attach token automatically
